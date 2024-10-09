@@ -10,6 +10,13 @@
     <title>EMBEDDING DAY 🎋</title>
     <h2>This is an H2</h2>
 
+    <fieldset id = "first_row_of_buttons">
+        <legend> Filter the view</legend>
+        <input type="button" value = "Oregon & Washington Only" id = "oregon_and_washington">
+        <input type="button" value = "Clear Filter" id = "clear_filter">
+        <input type="button" value = "Undo" id = "undo">
+    </fieldset>
+
     <div class="content">
         <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 
@@ -18,7 +25,7 @@
           src='https://public.tableau.com/views/Superstore_embedded_800x800/Overview'      
           toolbar="bottom" hide-tabs>
         </tableau-viz>
-</div>
+    </div>
 
     <script
       type="module"
@@ -26,6 +33,6 @@
     ></script>
 
     <script src="app.js"></script>
-    
+    <link rel="stylesheet" href="style.css">
   </body>
 </html>

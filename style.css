@@ -1,0 +1,67 @@
+/* Indie Vibes CSS */
+
+/* Body Styling */
+body {
+  font-family: "Courier New", Courier, monospace; /* Typewriter-style font */
+  background-color: #f2e9e1; /* Soft beige background */
+  color: #333; /* Darker text */
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* Headings */
+h2 {
+  font-family: "Lucida Handwriting", cursive; /* Handwritten font for headings */
+  color: #2b3d52; /* A soft blue-gray color */
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Button Styling */
+input[type="button"] {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #9dbbae; /* Soft green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #7a9483; /* Darker green on hover */
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: 2px solid #2b3d52; /* Blue-gray border */
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #e6ded8; /* Light muted background */
+}
+
+legend {
+  font-family: "Lucida Handwriting", cursive;
+  color: #2b3d52;
+  padding: 0 10px;
+}
+
+/* Tableau Viz Styling */
+.content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#tableauViz {
+  width: 800px;
+  height: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  border-radius: 10px;
+}
