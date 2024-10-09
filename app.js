@@ -75,7 +75,7 @@ oregonWashingtonButton.addEventListener("click", oregonWashFuction);
 //run clear filter button
 clearFilterButton.addEventListener("click", clearStateFilter);
 //run undo button
-undoButton.addEventListerner("click", unDo);
+undoButton.addEventListener("click", unDo);
 
 //run our funtion when the workbook becomes interactive
 viz.addEventListener("firstinteractive", logWorkbookInformation);
